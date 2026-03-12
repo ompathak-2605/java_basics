@@ -10,5 +10,6 @@ public class math {
         System.out.println(Math.abs(-67));
         System.out.println(Math.addExact(2, 4));
         System.out.println(Math.class);
+        System.out.println(Math.sqrt(4));
     }
 }
