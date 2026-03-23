@@ -1,4 +1,8 @@
- // System.out.println("Original String: " + str);
+public class string {
+    public static void main(String[] args) {
+        String str = "Hello, World!";
+        String str2= "Om Pathak";
+        // System.out.println("Original String: " + str);
 
         // // Convert to uppercase
         // String upperStr = str.toUpperCase();
@@ -20,3 +24,7 @@
         // String replacedStr = str.replace("World", "Java");
         // System.out.println("Replaced String: " + replacedStr);
         // System.out.println(str.indexOf(","));
+        System.out.println(str.concat(str2));
+    }
+
+}
