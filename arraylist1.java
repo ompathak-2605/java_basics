@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class arraylist1 {
     public static void main(String[] args) {
         //declearing arraylist,and adding element
-
+        int[] arr1 = {1,2,3,4,5,6,7,8,9,10};
         ArrayList <Integer> arr = new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7,8,9,10));
         arr.add(11);
         arr.add(12);
@@ -11,31 +11,43 @@ public class arraylist1 {
         arr.add(14);
         arr.add(15);
         arr.add(16);
+        int size = arr.size();
+        boolean contains = arr.contains(5);
+        boolean isEmpty = arr.isEmpty();
+        System.out.println("Size of the array list is: " + size);
+        System.out.println("Array list contains 5: " + contains);
+        System.out.println("Array list is empty: " + isEmpty);
 
         System.out.println(arr);
+
+
+        
 
         // getting element
 
-        int el = arr.get(4);
-        System.out.println("4th element is "+el);
+        // int el = arr.get(4);
+        // System.out.println("4th element is "+el);
 
-        // changing element
-        arr.set(3, 90);
-         System.out.println(arr);
+        // // changing element
+        // arr.set(3, 90);
+        //  System.out.println(arr);
 
-        // adding element at any index
+        // // adding element at any index
 
-        arr.add(0, 89);
-         System.out.println(arr);
+        // arr.add(0, 89);
+        //  System.out.println(arr);
 
-        // delete element
+        // // delete element
 
-        arr.remove(0);
-        System.out.println(arr);
+        // arr.remove(0);
+        // System.out.println(arr);
 
-        //size
+        // //size
 
-        int size = arr.size();
-        System.out.println(size);
+        // int size = arr.size();
+        // System.out.println(size);
+
+        // arr.hashCode();
+
     }
 }

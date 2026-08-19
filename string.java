@@ -2,6 +2,19 @@ public class string {
     public static void main(String[] args) {
         String str = "Hello, World!";
         String str2= "Om Pathak";
+        System.out.println(str2.charAt(3));
+        char[] charArray = str2.toCharArray();
+        int j = charArray.length-1;
+        int i = 0;
+        while(i<j){
+            char temp = charArray[i];
+            charArray[i] = charArray[j];
+            charArray[j] = temp;
+            i++;
+            j--;
+        }
+        charArray.toString;
+        System.out.println(new String(charArray));
         // System.out.println("Original String: " + str);
 
         // // Convert to uppercase
@@ -24,7 +37,9 @@ public class string {
         // String replacedStr = str.replace("World", "Java");
         // System.out.println("Replaced String: " + replacedStr);
         // System.out.println(str.indexOf(","));
-        System.out.println(str.concat(str2));
+        // System.out.println(str.concat(str2));
+        
+
     }
 
 }
