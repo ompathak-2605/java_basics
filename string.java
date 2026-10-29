@@ -2,10 +2,12 @@ public class string {
     public static void main(String[] args) {
         String str = "Hello, World!";
         String str2= "Om Pathak";
+        int l = str.
         System.out.println(str2.charAt(3));
         char[] charArray = str2.toCharArray();
         int j = charArray.length-1;
         int i = 0;
+        int n = str.length();
         while(i<j){
             char temp = charArray[i];
             charArray[i] = charArray[j];
